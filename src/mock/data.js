@@ -2,17 +2,17 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Rashid Makki', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Rashid Makki',
+  subtitle: "I'm the Developer you need.",
+  cta: 'Know more',
 };
 
 // ABOUT DATA
@@ -28,38 +28,65 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
+    img: 'faceRecog.png',
+    title: 'Face Recognition App',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://rashidmakki.github.io/face_recognition/',
+    repo: 'https://github.com/rashidmakki/face_recognition', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
+    img: 'robofriends.png',
+    title: 'Robofriends',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://rashidmakki.github.io/robofriends/',
+    repo: 'https://github.com/rashidmakki/robofriends', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
+    img: 'lifestyle.png',
+    title: 'Lifestyle Store',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://rashidmakki.github.io/Ecommerce-Store/',
+    repo: 'https://github.com/rashidmakki/Ecommerce-Store', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'E-Learning.png',
+    title: 'E-Learning Website',
+    info: '',
+    info2: '',
+    url: 'https://rashidmakki.github.io/E-Learning-Website/',
+    repo: 'https://github.com/rashidmakki/E-Learning-Website', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'bg.png',
+    title: 'Background Generator',
+    info: '',
+    info2: '',
+    url: 'https://rashidmakki.github.io/Background-Generator/',
+    repo: 'https://github.com/rashidmakki/Background-Generator', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'Ecommerce.png',
+    title: 'Ecommerce Store',
+    info: '',
+    info2: '',
+    url: 'https://rashidmakki.github.io/Ecommerce-Store1/',
+    repo: 'https://github.com/rashidmakki/Ecommerce-Store1', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: "Let's Talk",
+  email: 'arashid854@gmail.com',
 };
 
 // FOOTER DATA
@@ -83,12 +110,12 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/rashidmakki',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
