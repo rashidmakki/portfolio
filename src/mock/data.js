@@ -11,16 +11,18 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Rashid Makki',
-  subtitle: "I'm the Developer you need.",
+  subtitle: 'I like to make stuff with code.',
   cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I am a full-stack Developer with enthusiasm and focus on frontend as well as backend.',
+  paragraphTwo:
+    'Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. ',
+  paragraphThree: 'Feel free to contact me via email at anytime.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,8 +32,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'faceRecog.png',
     title: 'Face Recognition App',
-    info: '',
-    info2: '',
+    info:
+      "A full-stack web application which allow you to identify the detection of faces in any image supplied. This was achieved with the help of Clarifai's artificial intelligence API.",
+    info2: 'I used React, Node.js, Express.js and PostgreSQL in order to create this website.',
     url: 'https://rashidmakki.github.io/face_recognition/',
     repo: 'https://github.com/rashidmakki/face_recognition', // if no repo, the button will not show up
   },
@@ -39,8 +42,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'robofriends.png',
     title: 'Robofriends',
-    info: '',
-    info2: '',
+    info: 'A web application which allow you to search for the robots according to their name.',
+    info2: 'I used React, CSS3 in order to create this application.',
     url: 'https://rashidmakki.github.io/robofriends/',
     repo: 'https://github.com/rashidmakki/robofriends', // if no repo, the button will not show up
   },
@@ -48,8 +51,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'lifestyle.png',
     title: 'Lifestyle Store',
-    info: '',
-    info2: '',
+    info:
+      'A full-stack web application which allows users to purchase items.The application has both authentication and authorisation for verification of users and their capabilities.',
+    info2: 'I used HTML5, CSS3. Bootstrap, Javascript, PHP, MySQL in order to create this website.',
     url: 'https://rashidmakki.github.io/Ecommerce-Store/',
     repo: 'https://github.com/rashidmakki/Ecommerce-Store', // if no repo, the button will not show up
   },
@@ -57,8 +61,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'E-Learning.png',
     title: 'E-Learning Website',
-    info: '',
-    info2: '',
+    info:
+      'A full-stack web application which allow users to purchase from the list of courses and to access it after purchase is successful.Session is maintained whenever the user refresh the page.',
+    info2: 'I used HTML5, CSS3, Bootstrap, Javascript, PHP, MySQL in order to create this website.',
     url: 'https://rashidmakki.github.io/E-Learning-Website/',
     repo: 'https://github.com/rashidmakki/E-Learning-Website', // if no repo, the button will not show up
   },
@@ -66,8 +71,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'bg.png',
     title: 'Background Generator',
-    info: '',
-    info2: '',
+    info: 'A web application that generates different background colour dynamically.',
+    info2: 'I used HTML5, CSS3 and Javascript in order to create this website.',
     url: 'https://rashidmakki.github.io/Background-Generator/',
     repo: 'https://github.com/rashidmakki/Background-Generator', // if no repo, the button will not show up
   },
@@ -75,8 +80,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'Ecommerce.png',
     title: 'Ecommerce Store',
-    info: '',
-    info2: '',
+    info:
+      'A full-stack web application which allow users to purchase items from the cart.The application has both authentication and authorisation for verification of users and their capabilities.',
+    info2: 'I used HTML5, CSS3, Bootstrap, Javascript, PHP, MySQL in order to create this website.',
     url: 'https://rashidmakki.github.io/Ecommerce-Store1/',
     repo: 'https://github.com/rashidmakki/Ecommerce-Store1', // if no repo, the button will not show up
   },
@@ -85,8 +91,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Would you like to work with me? Awesome!',
-  btn: "Let's Talk",
-  email: 'arashid854@gmail.com',
+  btn: "Let's build together",
+  email: 'rashidmakkiha_cse18@its.edu.in',
 };
 
 // FOOTER DATA
