@@ -58,7 +58,17 @@ const Header = () => {
 
   return (
     <div className="Hero">
-      <Particles height="100vh" width="220vh" className="particles" params={particleShape} />
+      <Particles
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+        }}
+        className="particles"
+        params={particleShape}
+      />
       <section id="hero" className="jumbotron">
         <Container>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
