@@ -1,43 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import Particles from 'react-particles-js';
+import ParticlesEffect from '../Particles/particles';
 import PortfolioContext from '../../context/context';
-
-const particleShape = {
-  particles: {
-    number: {
-      value: 160,
-      density: {
-        enable: false,
-      },
-    },
-    size: {
-      value: 10,
-      random: true,
-    },
-    move: {
-      direction: 'bottom',
-      out_mode: 'out',
-    },
-    line_linked: {
-      enable: false,
-    },
-  },
-  interactivity: {
-    events: {
-      onclick: {
-        enable: true,
-        mode: 'remove',
-      },
-    },
-    modes: {
-      remove: {
-        particles_nb: 10,
-      },
-    },
-  },
-};
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -58,17 +23,7 @@ const Header = () => {
 
   return (
     <div className="Hero">
-      <Particles
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '100%',
-          top: 0,
-          left: 0,
-        }}
-        className="particles"
-        params={particleShape}
-      />
+      <ParticlesEffect />
       <section id="hero" className="jumbotron">
         <Container>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
