@@ -30,6 +30,26 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'crwn-clothing.png',
+    title: 'Crown Clothing App',
+    info:
+      'A full stack web application which allow user to register, add items to the cart and to checkout using stripe api.',
+    info2: 'I used React, Redux, Redux-Saga and Firebase in order to create this website.',
+    url: 'https://apparel-live.herokuapp.com/',
+    repo: 'https://github.com/rashidmakki/crwn-clothing', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'covid-19_tracker.png',
+    title: 'Covid-19 Tracker',
+    info:
+      'A web application which fetch data globally and for different countries and their respective affected states.  I have created this website in order to track the impact of Covid-19 globally.',
+    info2: 'I used React in order to create this website.',
+    url: 'https://worldcoronatracker.netlify.app/',
+    repo: 'https://github.com/rashidmakki/covid-19_tracker', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'faceRecog.png',
     title: 'Face Recognition App',
     info:
