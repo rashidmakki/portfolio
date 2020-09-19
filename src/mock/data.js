@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I aim to develop applications that are aesthetically pleasing, user friendly and effective in solving the problem it was designed for.',
   paragraphThree: 'Feel free to contact me via email at anytime.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1cfVPPGeiUHYPnc2QJ37hN3YIVrnNp8n8/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
