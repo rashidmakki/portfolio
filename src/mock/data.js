@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am Full Stack developer with experience in building complex real world applications from scratch. I have adequate problem solving skills and debugging techniques in writing efficient code for scalable applications.',
+    'I am a Full Stack developer with experience in building complex real world applications from scratch. I have adequate problem solving skills and debugging techniques in writing efficient code for scalable applications.',
   paragraphTwo:
     'I aim to develop applications that are aesthetically pleasing, user friendly and effective in solving the problem it was designed for.',
   paragraphThree: 'Feel free to contact me via email at anytime.',
