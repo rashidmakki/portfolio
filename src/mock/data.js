@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a full-stack Developer with enthusiasm and focus on frontend as well as backend.',
+    'I am Full Stack developer with experience in building complex real world applications from scratch. I have adequate problem solving skills and debugging techniques in writing efficient code for scalable applications.',
   paragraphTwo:
-    'Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. ',
+    'I aim to develop applications that are aesthetically pleasing, user friendly and effective in solving the problem it was designed for.',
   paragraphThree: 'Feel free to contact me via email at anytime.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
