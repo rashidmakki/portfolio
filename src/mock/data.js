@@ -30,6 +30,26 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'pcc.png',
+    title: 'Process Control Chart',
+    info: 'Npm package which has methods to solve p-chart, np-chart, c-chart, u-chart ',
+    info2: 'I used Javascript for this project.',
+    url: 'https://rashidmakki.github.io/process-control-charts-example/',
+    repo: 'https://www.npmjs.com/package/process-control-charts-es6', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'mycart.png',
+    title: 'MyCart',
+    info:
+      'A react native mobile application which allow user to register, add items to the cart and to checkout using stripe api. Provided features such as google sign in.',
+    info2:
+      'I used React Native, Redux, Redux-Saga, Firebase, NodeJS, ExpressJS to create this website.',
+    url: 'https://github.com/rashidmakki/mycart',
+    repo: 'https://github.com/rashidmakki/mycart', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'crwn-clothing.png',
     title: 'Crown Clothing App',
     info:
